@@ -38,7 +38,8 @@ print(f"{B}{C}")
 print("╔══════════════════════════════════════════════════╗")
 print("║         Raspberry Pi – System Overview           ║")
 print(f"╚══════════════════════════════════════════════════╝{RST}")
-print(f"  {B}Hostname:{RST}  {cmd('hostname')}   |   {cmd('date \"+%d.%m.%Y %H:%M:%S\"')}")
+date_str = cmd('date "+%d.%m.%Y %H:%M:%S"')
+print(f"  {B}Hostname:{RST}  {cmd('hostname')}   |   {date_str}")
 print(f"  {B}Uptime:{RST}    {cmd('uptime -p')}")
 
 # ── CPU ───────────────────────────────────────────────────────────────────────
