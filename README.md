@@ -1,4 +1,4 @@
-# SysInfo4Raspi 🍓
+# SysInfo4Raspi
 
 A lightweight Python system monitoring script for Raspberry Pi — no external dependencies, pure Python stdlib.
 
