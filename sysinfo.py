@@ -192,3 +192,4 @@ if LIVE_MODE:
         print(f"\n{Y}Live monitor stopped.{RST}\n")
 else:
     render()
+  
